@@ -1,0 +1,23 @@
+{
+  "name": "my-package-json",
+  "version": "0.1.0",
+  "description": "Converts your package.json into an object for easy access to config",
+  "main": "index.cjs",
+  "module": "index.mjs",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jecxjo/my-package-json.git"
+  },
+  "author": "Jeff Parent <jeff@commentedcode.org>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jecxjo/my-package-json/issues"
+  },
+  "homepage": "https://github.com/jecxjo/my-package-json#readme"
+}
